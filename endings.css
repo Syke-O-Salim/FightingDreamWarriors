@@ -1,0 +1,16 @@
+#endingScreen[hidden]{display:none!important}
+#endingScreen{position:fixed;inset:0;z-index:1000;overflow:auto;background:radial-gradient(ellipse at top,#332536,#08080c 75%);padding:clamp(12px,3vw,40px);display:flex;align-items:center;justify-content:center;color:#fff4df}
+.ending-card{width:min(1180px,100%);display:grid;grid-template-columns:minmax(0,1.55fr) minmax(260px,1fr);background:#121017;border:1px solid #735c4a;box-shadow:0 25px 100px #0009;border-radius:8px;overflow:hidden;margin:auto}
+.ending-art{position:relative;background:#09080b;display:flex;align-items:center;min-width:0}
+#endingImage{display:block;width:100%;height:auto;max-height:82vh;object-fit:contain}
+.ending-badge{position:absolute;top:16px;left:16px;background:#100c12dd;border:1px solid #e7c88777;padding:8px 12px;color:#f5d39b;font:700 10px/1.4 Arial,sans-serif;letter-spacing:2px}
+.ending-copy{padding:clamp(22px,3vw,44px);display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:14px}
+#endingChapter{color:#d5b47d;font:700 11px/1.5 Arial,sans-serif;letter-spacing:2px}
+#endingName{font:900 clamp(30px,4vw,58px)/1 Arial,sans-serif;margin:0;letter-spacing:2px;color:#fff4df}
+#endingStory{font:400 clamp(16px,1.6vw,21px)/1.65 Georgia,serif;margin:0 0 12px;color:#e8ddd2}
+.ending-copy small{font:11px/1.5 Arial,sans-serif;color:#aaa1ae}
+#endingContinue{width:100%;min-height:48px}
+#endingScreen[data-character="freddy"] #endingName{color:#ff6960}
+#endingScreen[data-character="freddy"] #endingStory{font-style:italic;font-size:clamp(23px,3vw,38px)}
+@media(max-width:700px){#endingScreen{padding:12px;align-items:flex-start}.ending-card{grid-template-columns:1fr;max-width:560px}.ending-copy{padding:22px;gap:10px}#endingImage{max-height:none}.ending-badge{top:10px;left:10px;font-size:9px}}
+@media(max-height:500px) and (min-width:701px){#endingScreen{padding:10px}.ending-copy{padding:18px;gap:8px}#endingName{font-size:30px}#endingStory{font-size:15px;margin-bottom:0}.ending-badge{font-size:8px}}

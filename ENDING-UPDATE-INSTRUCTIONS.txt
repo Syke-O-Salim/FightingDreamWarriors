@@ -1,0 +1,42 @@
+DREAM WARRIORS — VERSION 30 CHARACTER ENDINGS UPDATE
+
+This update adds 12 illustrated character endings after winning the entire
+Tournament. Regular match wins, losses, and Versus matches do not show endings.
+Press Enter, Space, J, or click/tap CONTINUE after reading an ending.
+
+HOW TO UPDATE YOUR EXISTING GITHUB WEBSITE
+1. Right-click this downloaded ZIP and choose Extract All.
+2. Open GitHub Desktop. Select FightingDreamWarriors.
+3. Choose Repository > Show in Explorer.
+4. Open the extracted update folder in a second window.
+5. Copy ALL its contents into the FightingDreamWarriors folder opened in step 3.
+   Copy the endings folder itself, too. Do not move pictures out of it.
+6. Choose Replace the files in the destination when Windows asks.
+   Keep your existing game files! This ZIP contains only changed/new files.
+7. Return to GitHub Desktop. Enter Added character endings in Summary.
+8. Click Commit to main, then Push origin.
+9. Wait for a green check on GitHub's Actions page.
+10. Open your usual game link. On Windows, press Ctrl+F5 if it looks unchanged.
+
+The game URL stays the same. No changes to GitHub Pages settings are needed.
+
+FILES INCLUDED
+index.html and game.js: updated existing files.
+endings.js and endings.css: new ending logic and presentation.
+endings/: twelve new PNG illustrations.
+This instruction file.
+
+ART
+Created with the built-in image-generation tool. Prompt direction: clean bold
+2D ink outlines and cel shading matching the game's character-select portraits;
+Nancy counseling office; Kristen college gymnast; Alice and Dan wedding;
+Dan football scholarship; Rick karate dojo; Will wheelchair and doctor coat;
+Jesse nightclub and normal hands; Taryn pageant winner; Joey eighties MTV TV;
+Kincaid mechanic shop; Mark comic shop; Freddy reference pose.
+Freddy, Mark and Taryn use the supplied reference pictures for their endings.
+Their character-select artwork remains as it was.
+
+VALIDATION
+All 12 ending mappings, final-tournament-only trigger, continue flow, negative
+cases, reset hooks, JavaScript syntax and PNG files checked.
+A full browser gameplay/layout test was unavailable in the build environment.
